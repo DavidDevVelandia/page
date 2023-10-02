@@ -1,9 +1,9 @@
 <template>
-    <h1>Bienvenidos</h1>
+    <h1>Bautizos</h1>
 </template>
-
 <style lang="scss" scoped>
 
 </style>
 <script setup>
+
 </script>
