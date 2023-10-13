@@ -1,11 +1,12 @@
 <template>
-    <router-link :to='{name: "homeView"}'><img src="../../../public/img/home.svg" alt="" class="image"></router-link>    
+    <img src="./../../assets/svg/logo.svg" alt="" srcset="" class="image">
 </template>
 <style lang="scss" scoped>
-    .image{
-        height: 2rem;
-
-    }
+.image{
+    width: 6rem;
+    position: absolute;
+    left: 0;
+}
 </style>
 <script setup>
 

@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="{name: 'birthdayView'}" >cumpleaños</router-link>
+    <router-link :to="{name: 'birthdayView'}" class="router--birthday">cumpleaños</router-link>
 </template>
 <style lang="scss" scoped>
 

@@ -1,19 +1,22 @@
 <template>
-  <HeaderComp/>
+  <HeaderComp class="HeaderComponent"/>
   <router-view class="router-view"/>
+  <FooterComp/>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+*{
+  box-sizing: border-box;
 }
 .router-view{
-  margin-top: 3rem;
+  margin-top: 4rem;
+}
+.HeaderComponent{
+ position: relative;
+ z-index: 450; 
 }
 </style>
 <script setup>
 import HeaderComp from './components/HeaderComp.vue';
+import FooterComp from './components/FooterComp.vue';
 </script>
