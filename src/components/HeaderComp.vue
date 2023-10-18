@@ -68,7 +68,7 @@
   position: relative;
   z-index: 500; 
   width: 100vw;
-  background-color: $font;
+  background-color: $secondary;
   .header__menu--icon {
   width: 3rem;
   }

@@ -39,8 +39,8 @@
 
         <div class="line"></div>
         <h2 class="main__subtitle main__subtitle--interest">¿Te interesa nuestro trabajo?</h2>
+        <ButtonBirthday/>
 
-        
     </main>
 </template>
 
@@ -49,11 +49,17 @@
 .main__title, .main__subtitle {
   color: $title;
   display: block;
-  width: fit-content;
+  width: 11rem;
   margin: 6rem auto 0;
 }
 .main__subtitle--galery{
-    margin-bottom: 6rem;
+  width: 2rem;
+  margin-bottom: 6rem;
+}
+
+.main__subtitle--interest{
+  width: 19rem;
+  margin-bottom: 6rem;
 }
 
 .line{
@@ -85,6 +91,7 @@
 import GalleryComp from "@/components/HomeComps/GalleryComp.vue"
 import ImagesComp from "@/components/HomeComps/ImagesComp.vue";
 import { onMounted, ref } from "vue";
+import ButtonBirthday from "@/components/HomeComps/ButtonBirthday.vue";
 onMounted(() => {
   window.addEventListener("resize", handleWindowResize);
 

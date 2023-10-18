@@ -1,7 +1,9 @@
 <template>
-  <HeaderComp class="HeaderComponent"/>
-  <router-view class="router-view"/>
-  <FooterComp/>
+    <HeaderComp class="HeaderComponent"/>
+    <div class="container" ref="Container">
+      <router-view class="router-view"/>
+      <FooterComp class="FooterComponent"/>
+    </div>
 </template>
 
 <style lang="scss">
@@ -15,8 +17,14 @@
  position: relative;
  z-index: 450; 
 }
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 </style>
 <script setup>
 import HeaderComp from './components/HeaderComp.vue';
 import FooterComp from './components/FooterComp.vue';
+
 </script>
