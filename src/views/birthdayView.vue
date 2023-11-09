@@ -16,6 +16,7 @@
 }
 .main__description{
     color: $content;
+    margin-left: 10%;
 }
 </style>
 <script setup>

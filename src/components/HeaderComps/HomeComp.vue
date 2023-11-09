@@ -1,5 +1,5 @@
 <template>
-    <router-link :to='{name: "homeView"}'>inicio</router-link> 
+    <router-link :to='{name: "homeView"}'>Inicio</router-link> 
 </template>
 <style lang="scss" scoped>
     .image{

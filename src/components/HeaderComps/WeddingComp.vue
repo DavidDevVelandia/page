@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="{name: 'weddingView'}">matriomonios</router-link>
+    <router-link :to="{name: 'weddingView'}">Matriomonios</router-link>
 </template>
 <style lang="scss" scoped>
 
